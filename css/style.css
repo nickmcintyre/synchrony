@@ -1,0 +1,49 @@
+.subtitle {
+    font-family: 'Enriqueta', serif !important;
+}
+.main-text {
+    text-align: left;
+}
+.header {
+    text-align: left;
+}
+.small-text {
+    font-size: 0.5em;
+}
+.medium-text {
+    font-size: 0.7em;
+}
+.big-text {
+    font-size: 1.5em;
+}
+.split-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.5em;
+}
+.one-two-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 0.5em;
+}
+.two-one-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 0.5em;
+}
+.quad-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 0.5em;
+}
+.one-two-one-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 0.5em;
+}
+blockquote {
+    box-shadow: none !important;
+    margin: 0 !important;
+    border-left: 3px darkgray solid !important;
+    padding-left: 1em !important;
+}
